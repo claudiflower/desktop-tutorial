@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html> 
+
+    <head>
+        <meta charset = "utf-8">
+        <title> claud's home </title>
+        <link rel="stylesheet" href="css/homeStyle.css">
+        <!-- font awesome icons library -->
+        <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    </head>
+
+    <body> 
+        <!-- page header -->
+        <header> 
+            <div class = "pageTitle">
+                <h1> homepage </h1> 
+            </div>
+        </header>
+        <!-- end page header -->
+
+        <div class = "pageTop">
+            <!-- page navigation -->
+            <div class = "pageNav">
+                <nav class = "navigation" style="height: 60px;"> 
+                    <ul>
+                        <li> <a href = "homepage.html"> home </a> </li>
+                        <li> <a href = "projects.html"> projects </a> </li>
+                        <li> <a href = "aboutme.html"> about me! </a> </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- end page navigation -->
+
+            <!-- page audio -->
+            <div class = "audio"> 
+                <div class = "buttons">
+                    <div class="playpause-track">
+                        <button onclick="playpauseTrack()">
+                        <i class="fa fa-music" aria-hidden="true"></i>
+                        </button>
+                        <script src="homeJS.js"></script>
+                    </div>
+                </div>
+
+                <audio class="hello" loop>
+                    <source src = "media/Ketsa - Saturn.mp3" type="audio/mpeg">
+                    Your web browser is outdated & does not support HTML audio.
+                    Please consider <a href="http://browsehappy.com/"> updating </a>
+                </audio>
+            </div>
+        </div>
+        <!-- end page audio -->
+        
+        <!-- page content -->
+        <div class = "content">
+            <div class = "listedWorks">
+            <dl> 
+                <dt> projects: </dt>
+                <dd> works are created for the following topics </dd>
+                <dd> design futures nyc</dd>
+                <dd> clip studio paint pro </dd>
+                <dd> bulletin things </dd>
+            </dl>
+            </div>
+        </div>
+        <!-- end page content -->
+
+    </body>
+
+</html>
